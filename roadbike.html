@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<!--Author: Will Carrasco -->
+<html>
+  <head>
+   <title>So your interested in a mountain bike</title>
+   <link rel="stylessheet" href="styles.css" />
+   <script type="text/javascript" src="bike.js"></script>
+   <meta charset="utf-8">
+  </head>
+ <body id="road">
+   <h>On this page we'll have you enter your information so we can find a bike that
+     suites you the best. Depending on your age, level of experience and price range
+     we can suggest a good fitting road bike for you.
+   <!--The following code is by w3schools (w3schools.com) with adjustments made by
+me -->
+<div class="container-fluid">
+ <form class="form-horizontal">
+  <div class="row">
+   <div class="col-sm-offset-2">
+   </div>
+ </div>
+ <div class="row myinput-row">
+  <div class="form-group" id="rage">
+    <label for="rdage" class="col-sm-2 control-label">Enter your age</label>
+    <div class="col-sm-2">
+      <input type="text" id="agerd" class="form-control input-md"
+      <span id="ageError" class="control-label hidden-message">
+      </span>
+    </div>
+  </div>
+</div>
+ <div class="form-group">
+     <div class="col-sm-offset-2 col-sm-10">
+       <button type="button" class="btn btn-primary col-sm-1"
+         onclick="valroadAtempt(); storeAtempt();">
+         Age
+       </button>
+     </div>
+   </div>
+
+<div class="row">
+<div class="form-group" id="rlvl">
+  <label for="rdlvl" class="col-sm-2 control-label">Enter your level of experience
+    between 1-3; 1 being not a very experienced rider</label>
+  <div class="col-sm-2">
+    <input type="text" id="lvlrd" class="form-control input-md"
+    <span id="lvlError" class="control-label hidden-message">
+    </span>
+  </div>
+</div>
+</div>
+<div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+      <button type="button" class="btn btn-primary col-sm-1"
+        onclick="valroadAtempt2(); storeAtempt();">
+        Level of experience
+      </button>
+    </div>
+  </div>
+
+<div class="row">
+<div class="form-group" id="rprice">
+  <label for="rdprice" class="col-sm-2 control-label">Enter your price range from
+    1-500, 500-1000, and 1000-up</label>
+  <div class="col-sm-2">
+   <input type="text" id="pricerd" class="form-control input-md"
+   <span id="priceError" class="control-label hidden-message">
+   </span>
+ </div>
+</div>
+</div>
+<div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+      <button type="button" class="btn btn-primary col-sm-1"
+        onclick="valroadAtempt3(); storeAtempt();">
+        Price range
+      </button>
+    </div>
+  </div>
+
+
+
+
+</body>
+</html>

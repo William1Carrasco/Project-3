@@ -1,41 +1,23 @@
-div.container {
-    width: 100%;
-    border: 1px solid gray;
-}
-
-header {
-    padding: 1em;
-    color: white;
-    background-color: black;
-    clear: left;
+h {
     text-align: center;
 }
-
-nav {
-    float: left;
-    max-width: 160px;
-    margin: 0;
-    padding: 1em;
+#section0 {
+  background-color: #rgb(19,108,168);
+  font-family: "serif"; Georgia, Times New Roman;
 }
-
-nav ul {
-    list-style-type: none;
-    padding: 0;
+#section1 {
+  background-color: #rgb(255,158,56);
+  font-family: "serif"; Georgia, Times New Roman;
 }
-
-nav ul a {
-    text-decoration: none;
+#section2 {
+  background-color: #rgb(18,1,225);
+  font-family: "serif"; Georgia, Times New Roman;
 }
-
-section {
-    float: left;
-    max-width: 50%;
-    margin: 0;
-    padding: 1em;
+#section3 {
+  background-color: #rgb(55,158,255);
+  font-family: "serif"; Georgia, Times New Roman;
 }
-article {
-    margin-left: 170px;
-    border-left: 1px solid gray;
-    padding: 1em;
-    overflow: hidden;
+#lastSection {
+  background-color: #rgb(23,230,59);
+  font-family: "serif"; Georgia, Times New Roman;
 }
